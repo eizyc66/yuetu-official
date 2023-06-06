@@ -1,0 +1,23 @@
+{
+  "productLine": "产品系列",
+  "productModel": "产品型号",
+  "panel": "面板",
+  "efficiency": "能效等级",
+  "referenceModel": "参考机型",
+  "modelCode": "机型编码",
+  "internalSize": "内机尺寸",
+  "externalSize": "外机尺寸",
+  "externalWithValveSize": "外机尺寸 + 阀门",
+  "EER": "能效比",
+  "internalQuality": "铭牌上室内机质量 （净重/毛重Kg）",
+  "externaQuality": "铭牌上室外机质量 （净重/毛重Kg）",
+  "coolingCapacity": "制冷量",
+  "coolingPower": "制冷功率",
+  "heatingCapacity": "制热量",
+  "heatingPower": "制热功率",
+  "circulatingFlow": "循环风量",
+  "rowType": "单排",
+  "powerEfficiency": "电源性能",
+  "bodyColor": "机身颜色",
+  "area": "使用面积"
+}

@@ -2,26 +2,69 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer components {
+  .content-auto{
+
+    @apply sm:max-w-[2560px] sm:w-[72.2vw] sm:mx-auto;
+    /* 1040/1440 */
+  }
+  .min-content-auto{
+
+    @apply sm:max-w-[2560px] sm:w-[59.8vw] sm:mx-auto;
+    /* 862/1440 */
   }
 }
 
+@font-face {
+  font-family: "Lato";
+  src: url("/font/Lato/Lato-Regular.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("/font/Lato/Lato-Light.ttf");
+  font-weight: 300;
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin: 0;
+  background: #fff;
+}
+
+main {
+  min-height: 600px;
+}
+
+.svg svg, .svg > div {
+  width: 100%;
+  height: 100%;
+}
+
+textarea, input { 
+  outline: none;
+  min-width: 20px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(0,0,0,.35);
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgba(0,0,0,.35);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgba(0,0,0,.35);
+}
+
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica, Arial, sans-serif;
+}
+
+*,
+::after,
+::before {
+  font-family: inherit;
 }

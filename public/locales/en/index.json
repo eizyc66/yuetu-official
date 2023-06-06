@@ -1,0 +1,13 @@
+{
+  "name": "Name",
+  "phone": "Phone",
+  "company": "Company",
+  "consult-content": "Consult content",
+  "placeholder": {
+    "name": "FirstName LastName",
+    "phone": "Phone Number",
+    "company": "Company Name",
+    "consult-content": "Please Enter"
+  },
+  "send": "Send"
+}

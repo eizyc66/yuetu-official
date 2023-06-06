@@ -1,0 +1,13 @@
+{
+  "name": "姓名",
+  "phone": "电话",
+  "company": "公司名称",
+  "consult-content": "咨询内容",
+  "placeholder": {
+    "name": "请输入姓名",
+    "phone": "联系方式",
+    "company": "请输入公司全称",
+    "consult-content": "请输入"
+  },
+  "send": "发送"
+}

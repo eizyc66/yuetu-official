@@ -1,0 +1,69 @@
+{
+  "nameInList": "月兔变频挂机空调",
+  "subnameInList": "商用空调",
+  "category":"ceiling",
+  "name": "模拟设备6 商用空调 天花机",
+  "model": "KFR-35GW/xslc3442",
+  "desc": "宁化月兔科技有限公司成立于2015年3月22日，总部位于福建省三明市宁化县工业园，月兔是专业致力于空调产品的研发、生产、销售和服务的大型综合性白电集团。",
+  "efficiency": [
+    "变频88级"
+  ],
+  "area": [
+    "26机(12-18㎡)",
+    "38机(16-24㎡)"
+  ],
+  "colors": [
+    {
+      "value": "#fb7185",
+      "label": "芭比粉"
+    },
+    {
+      "value": "#dc2626",
+      "label": "大红"
+    }
+  ],
+  "attrs": [
+    "2度智眠科技",
+    "AI语音控制",
+    "99贝静音"
+  ],
+  "parameters": {
+    "productLine": "变频",
+    "productModel": "KFR-35GW/DN2Y-QA(Z1)A",
+    "panel": "VA",
+    "efficiency": "1",
+    "referenceModel": "KFR-35GW/DN2Y-VA(Z1)A",
+    "modelCode": "8T1100600035",
+    "internalSize": "860*299*190",
+    "externalSize": "700*255*540",
+    "externalWithValveSize": "777*317*540",
+    "EER": "5.26",
+    "internalQuality": "10/12.5",
+    "externaQuality": "23/26",
+    "coolingCapacity": "3500（300-5000）",
+    "coolingPower": "800（80-1900）",
+    "heatingCapacity": "4800（300-6500）+1050",
+    "heatingPower": "1290（80-2095）+1050",
+    "circulatingFlow": "650",
+    "rowType": "单排",
+    "powerEfficiency": "220V/50Hz",
+    "bodyColor": "珍珠白",
+    "area": "15-23㎡"
+  },
+  "coverImgs": [
+    "/images/products/2/cover.png",
+    "/images/products/0/detail-1.png",
+    "/images/products/0/detail-2.png",
+    "/images/products/0/detail-3.png",
+    "/images/products/0/detail-4.png",
+    "/images/products/0/detail-5.png"
+  ],
+  "detailImgs": [
+    "/images/products/2/cover.png",
+    "/images/products/0/detail-1.png",
+    "/images/products/0/detail-2.png",
+    "/images/products/0/detail-3.png",
+    "/images/products/0/detail-4.png",
+    "/images/products/0/detail-5.png"
+  ]
+}

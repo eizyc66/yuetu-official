@@ -1,0 +1,23 @@
+{
+  "productLine": "product line",
+  "productModel": "product model",
+  "panel": "panel",
+  "efficiency": "efficiency",
+  "referenceModel": "reference model",
+  "modelCode": "model code",
+  "internalSize": "internal size",
+  "externalSize": "external size",
+  "externalWithValveSize": "external with valve size",
+  "EER": "EER",
+  "internalQuality": "internal quality",
+  "externaQuality": "external qality",
+  "coolingCapacity": "cooling capacity",
+  "coolingPower": "cooling power",
+  "heatingCapacity": "heating capacity",
+  "heatingPower": "heating power",
+  "circulatingFlow": "circulating flow",
+  "rowType": "row type",
+  "powerEfficiency": "power efficiency",
+  "bodyColor": "body color",
+  "area": "area"
+}

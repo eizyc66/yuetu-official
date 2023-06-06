@@ -6,13 +6,24 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontSize: {
+      xs: ['0.75rem', '1'],
+      sm: ['0.875rem', '1'],
+      base: ['1rem', '1'],
+      lg: ['1.125rem', '1'],
+      xl: ['1.25rem', '1'],
+      '2xl': ['1.5rem', '1'],
+      '3xl': ['1.875rem', '1'],
+      '4xl': ['2.25rem', '1'],
+      '5xl': ['3rem', '1'],
+    },
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+      colors: {
+        'primary': '#FC0407'
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+  ],
 }
