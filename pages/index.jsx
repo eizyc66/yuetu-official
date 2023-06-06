@@ -10,7 +10,7 @@ export default function Index() {
 
     <meta
         httpEquiv="Refresh"
-        content={`0; URL=/${locale}`}
+        content={`0; URL=/zh`}
         key="desc"
       />
   </Head>
