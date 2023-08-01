@@ -7,6 +7,9 @@ export { default as ContactUs } from './contact-us/index';
 export { default as RatioBox } from './layout/components/ratioBox/index'
 export { default as ScrollView } from './scroll-view/index'
 export { default as LanguageSwitch } from './i18n/language-switch';
+export { default as D3Map } from './global/map'
+export { default as Panel } from './global/panel'
+
 
 
 

@@ -14,6 +14,10 @@
     @apply sm:max-w-[2560px] sm:w-[59.8vw] sm:mx-auto;
     /* 862/1440 */
   }
+
+  .transition-default {
+    @apply transition-all ease-in-out duration-[400ms]
+  }
 }
 
 @font-face {
@@ -34,7 +38,7 @@ body {
 }
 
 main {
-  min-height: 600px;
+  box-sizing: border-box;
 }
 
 .svg svg, .svg > div {

@@ -6,7 +6,7 @@ import { ContactUs } from '@/components/index'
 
 import { getStaticPaths, makeStaticProps } from '@/utils/getStatic'
 
-const getStaticProps = makeStaticProps(['common'])
+const getStaticProps = makeStaticProps([])
 export { getStaticPaths, getStaticProps }
 
 
@@ -25,8 +25,7 @@ const patentsList = [
   '一种用于空调感温包的安装结构'
 ]
 
-export default function RDCenterPage({common}) {
-  // const { t } = useTranslation('common')
+export default function RDCenterPage() {
   const isPC = useMedia()
 
   const renderImg = (list) => (

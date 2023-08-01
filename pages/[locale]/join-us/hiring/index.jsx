@@ -6,10 +6,10 @@ import { JOB_LIST } from '@/utils/const'
 import { getStaticPaths, makeStaticProps } from '@/utils/getStatic'
 
 
-const getStaticProps = makeStaticProps(['common'])
+const getStaticProps = makeStaticProps([])
 export { getStaticPaths, getStaticProps }
 
-export default function HiringPage({common}) {
+export default function HiringPage() {
   const { t } = useTranslation('common')
 
   const renderJob = ({title, id, basic, salary, count, desc}) => (

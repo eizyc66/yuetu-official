@@ -11,7 +11,7 @@ const params = {
   id: JOB_LIST.map(item=>item.id)
 }
 const getStaticPaths = makeStaticPaths(createParams(params))
-const getStaticProps = makeStaticProps(['common'], (ctx)=>{
+const getStaticProps = makeStaticProps([], (ctx)=>{
   const id = ctx?.params?.id
   return {
     detailMenu: JOB_LIST.find(item=>item.id==id)?.title??'',
@@ -20,7 +20,7 @@ const getStaticProps = makeStaticProps(['common'], (ctx)=>{
 })
 export { getStaticPaths, getStaticProps }
 
-export default function JobPage({common}) {
+export default function JobPage() {
   const { t } = useTranslation('common')
   const isPC = useMedia()
   const router = useRouter()

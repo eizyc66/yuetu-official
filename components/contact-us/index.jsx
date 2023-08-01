@@ -5,13 +5,9 @@ import { useMemo } from 'react';
 import { useCopyToClipboard } from "react-use";
 import { useMedia } from '@/utils/hooks'
 import NoSSR from 'react-no-ssr';
-// import { getStaticPaths, makeStaticProps } from '@/utils/getStatic'
 
-// const getStaticProps = makeStaticProps(['common'])
-// export { getStaticPaths, getStaticProps }
-
-export default function ContactUs({common}) {
-  // const { t } = useTranslation('common')
+export default function ContactUs() {
+  const { t } = useTranslation('common')
   const isPC = useMedia()
   const [state, copyToClipboard] = useCopyToClipboard();
 
@@ -45,7 +41,7 @@ export default function ContactUs({common}) {
               </div>
               <Responsive>
                   <div className='border-0 flex-0 cursor-pointer text-black/[.35] text-center border-black/[.15] sm:px-6 sm:border sm:py-2 sm:text-black/90' onClick={()=>isPC?copyToClipboard(item):callTel(item)}>
-                    { isPC? '复制电话':'拨打电话'}
+                    { t(isPC? 'phone.copy':'phone.dial')}
                   </div>
               </Responsive>
             </li>
@@ -66,12 +62,11 @@ export default function ContactUs({common}) {
       </p>
     </div>
   )
-
   return (
       <div className='px-4 pb-10 sm:pl-6 sm:pb-14'>
         <div className='flex flex-col flex-1'>
-          {itemRender('全国售后热线',['4008-299-666'])}
-          {itemRender('官方合作热线',['0598-6509566', '15859816961'])}
+          {itemRender(t('hotline.after_sales'),['4008-299-666'])}
+          {itemRender(t('hotline.cooperation'),['0598-6509566', '15859816961'])}
         </div>
         <div className='flex flex-row justify-around mb-11 mt-8 sm:justify-evenly sm:mt-10'>
           {renderQRCode('/images/contact-us/tiktok.png', '/images/contact-us/tiktok-icon.png', '月兔空调官方抖音号')}
@@ -79,8 +74,8 @@ export default function ContactUs({common}) {
         </div>
         {divider('my-8')}
         <p className='mb-6 text-sm sm:mb-4'>
-          <span className='block font-medium text-black/90 text-base mr-4 sm:inline-block sm:text-sm sm:text-black/[.35]'>联系地址：</span>
-          <span className='block text-black/70 mt-4 sm:mt-0 sm:inline-block sm:font-medium sm:text-black/90 '>福建省三明市宁化县城南乡工业园3期6号</span>
+          <span className='block font-medium text-black/90 text-base mr-4 sm:inline-block sm:text-sm sm:text-black/[.35]'>{t('label.contact_address')}:</span>
+          <span className='block text-black/70 mt-4 sm:mt-0 sm:inline-block sm:font-medium sm:text-black/90 '>{t('address')}</span>
         </p>
         <img className='w-full' src={`/images/contact-us/location${isPC===true?'':'-mobile'}.png`}/>
       </div>

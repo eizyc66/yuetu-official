@@ -1,3 +1,33 @@
 {
-  "h1": "你好"
+  "home": "首页",
+  "address": "福建省三明市宁化县城南乡工业园区3期6号",
+  "desc": "宁化月兔科技有限公司成立于2015年3月22日，总部位于福建省三明市宁化县工业园，月兔是专业致力于空调产品的研发、生产、销售和服务的大型综合性白电集团。",
+  "label": {
+    "address": "地址",
+    "contact_address": "联系地址"
+  },
+  "more": {
+    "see": "查看更多",
+    "learn": "了解更多",
+    "detail": "查看详情"
+  },
+  "route": {
+    "about_us": "关于我们",
+    "product": "产品中心",
+    "service": "服务支持"
+  },
+  "phone": {
+    "copy": "复制电话",
+    "dial": "拨打电话"
+  },
+  "hotline": {
+    "after_sales": "全国售后热线",
+    "cooperation": "官方合作热线"
+  },
+  "AC_type":{
+    "household_AC": "家用空调",
+    "commercial_AC": "商用空调",
+    "special_AC": "特种空调"
+  },
+  "productType": "产品类型"
 }

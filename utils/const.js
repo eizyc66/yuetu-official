@@ -1,6 +1,7 @@
 const MENU = [
   {
     menu: '关于月兔',
+    path: '/about/introduction',
     visible: ['header', 'footer'],
     submenu: [
       {
@@ -37,6 +38,7 @@ const MENU = [
   },
   {
     menu: '产品中心',
+    path: '/product',
     visible: ['header', 'footer'],
     submenu: [
       {
@@ -85,6 +87,7 @@ const MENU = [
   },
   {
     menu: '服务支持',
+    path: '/support/question',
     visible: ['header', 'footer'],
     submenu: [
       {
@@ -95,6 +98,7 @@ const MENU = [
   },
   {
     menu: '加入月兔',
+    path: '/join-us/hiring',
     visible: ['header', 'footer'],
     submenu: [
       {
@@ -114,6 +118,9 @@ const MENU = [
   {
     menu: '官方商城',
     visible: ['header'],
+    path: 'https://mall.jd.com/index-774077.html',
+    target: '_blank',
+    external: true,
     submenu: [
       {
         name: '京东旗舰店',
@@ -124,6 +131,45 @@ const MENU = [
     ],
   }
 ]
+
+export const MENU_EN = [
+  {
+    menu: 'About Us',
+    path: '/about/introduction',
+    submenu: [
+      {
+        name: 'Company Introduction',
+        path: '/about/introduction'
+      },
+      {
+        name: 'History',
+        path: '/about/timeline'
+      }
+    ]
+  },
+  {
+    menu: 'Products',
+    path: '/product'
+  },
+  {
+    menu: 'Global',
+    path: '/global'
+  },
+  {
+    menu: 'Service',
+    path: '/support/contact-us',
+    submenu: [
+      {
+        name: 'Contact Us',
+        path: '/support/contact-us'
+      },
+      {
+        name: 'Online Feedback',
+        path: '#online_feedback'
+      }
+    ]
+  },
+] 
 
 export const MENU_HEADER = MENU.filter(item=>item.visible.includes('header'))
 export const MENU_FOOTER = MENU.filter(item=>item.visible.includes('footer'))
@@ -270,9 +316,57 @@ export const HOT_AIR_BLOWER_ERR_CODE = [
   }
 ]
 
-import productTypeList from './json/product/index.json';
+export const WORLD_LIST = [
+  {
+    label: 'North America',
+    value: 'northAmerica',
+    priority: 0,
+    offest: [2.3, 2.2],
+  },
+  {
+    label: 'Latin America',
+    value: 'latinAmerica',
+    offest: [1.8, 2],
+    priority: 4
+  },
+  {
+    label: 'Europe',
+    value: 'europe',
+    priority: 3
+  },
+  {
+    label: 'Middle East',
+    value: 'middleEast',
+    offest: [2.1, 2.4],
+    priority: 6
+  },
+  {
+    label: 'Africa',
+    value: 'africa',
+    offest: [2, 2.4],
+    priority: 2
+  },
+  {
+    label: 'Asia',
+    value: 'asia',
+    offest: [2, 2.4],
+    priority: 1
+  },
+  {
+    label: 'Oceania',
+    value: 'oceania',
+    offest: [2.05, 2],
+    priority: 5
+  }
+] 
 
-export const PRODUCT_TYPE_LIST = productTypeList
+import productTypeList_ZH from './json/product/zh.json';
+import productTypeList_EN from './json/product/en.json';
+
+
+export const PRODUCT_TYPE_LIST_ZH = productTypeList_ZH
+export const PRODUCT_TYPE_LIST_EN = productTypeList_EN
+
 
 import jobList from './json/job.json';
 
@@ -280,7 +374,7 @@ export const JOB_LIST = jobList
 
 import newsList from './json/news/index.json';
 
-export const NEWS_LIST = newsList
+export const NEWS_LIST = newsList.sort((a,b)=>(new Date(b.time).getTime()-new Date(a.time).getTime()))
 
 
 export const RECOMMEND_NEWS = ['3','4','5','6']

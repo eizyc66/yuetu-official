@@ -1,0 +1,55 @@
+{
+  "nameInList": "月兔UA定频挂机-1.5匹单冷",
+  "subnameInList": "U系列-月兔UA定频挂机",
+  "category":"hanging",
+  "name": "U系列-月兔UA定频挂机-1.5匹单冷",
+  "model": "KF-35GW/UA(5)",
+  "desc": "月兔U系列挂机，高品质，U生活，隐藏LED显示，柔光不刺眼。18分贝静音，舒适好睡眠",
+  "efficiency": [
+    "国标新5级"
+  ],
+  "area": ["1.5匹（13-20㎡）单冷"],
+  "colors": [
+    {
+      "value": "#fff",
+      "label": "珍珠白"
+    }
+  ],
+  "attrs": [
+    "强劲速冷",
+    "18分贝静音",
+    "独立除湿",
+    "高温自清洁"
+  ],
+  "parameters": {
+    "productModel": "KF-35GW/UA(5)",
+    "type": "分体挂壁机（挂机）",
+    "coolingType" :"单冷",
+    "horsepower": "1.5匹",
+    "frequency": "定频",
+    "efficiency": "新5级",
+    "APF": "3.72",
+    "coolingCapacity": "3500",
+    "coolingPower": "960",
+    "heatingCapacity": "/",
+    "heatingPower": "/",
+    "circulatingFlow": "650",
+    "controlWay": "遥控",
+    "internalSize": "825×290×195",
+    "externalSize": "780×255×540",
+    "internalQuality": "9/10",
+    "externaQuality": "27/30",
+    "powerEfficiency": "220V~50Hz",
+    "powerPlug": "16A"
+  },
+  "cover": "/images/products/UA/cover-1.png",
+  "coverImgs": [
+    "/images/products/UA/cover-1.png",
+    "/images/products/UA/cover-2.png",
+    "/images/products/UA/cover-3.png",
+    "/images/products/UA/cover-4.png",
+    "/images/products/UA/cover-5.png",
+    "/images/products/UA/cover-6.png"
+  ],
+  "detailImgs": []
+}

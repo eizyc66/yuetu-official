@@ -1,0 +1,53 @@
+{
+  "nameInList": "月兔HA定频柜机-5匹冷暖",
+  "subnameInList":"HA系列-月兔HA定频柜机",
+  "category":"cabinet",
+  "name": "HA系列-月兔HA定频柜机-5匹冷暖",
+  "model": "KFR-120LW/SDN1-HA(5)",
+  "desc": "月兔HA系列立式柜机，商用典范，大有所为，专为大空间量身定制，远距离送风。",
+  "efficiency": [
+    "国标新5级"
+  ],
+  "area": [
+    "5匹（41-72㎡）冷暖"
+  ],
+  "colors": [
+    {
+      "value": "#fff",
+      "label": "珍珠白"
+    }
+  ],
+  "attrs": [
+    "远距离送风",
+    "独立除湿",
+    "急速制冷暖",
+    "包裹大风量"
+  ],
+  "parameters": {
+    "productModel": "KFR-120LW/SDN1-HA(5)",
+    "type": "立式柜机",
+    "coolingType": "冷暖",
+    "horsepower": "5匹",
+    "frequency": "定频",
+    "efficiency": "新5级",
+    "APF": "3.15",
+    "coolingCapacity": "12000",
+    "coolingPower": "3600",
+    "heatingCapacity": "13200",
+    "heatingPower": "3650",
+    "circulatingFlow": "1800",
+    "controlWay": "遥控",
+    "internalSize": "543×385×1790",
+    "externalSize": "900×360×1224",
+    "internalQuality": "48/55",
+    "externaQuality": "90/98",
+    "powerEfficiency": "220V~50Hz",
+    "powerPlug": "16A"
+  },
+  "cover": "/images/products/HK/cover.png",
+  "coverImgs": [
+    "/images/products/HK/cover.png"
+  ],
+  "detailImgs": [
+  ]
+}

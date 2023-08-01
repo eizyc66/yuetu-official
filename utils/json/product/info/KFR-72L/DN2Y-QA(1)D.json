@@ -1,0 +1,58 @@
+{
+  "nameInList": "月兔星耀变频圆柱柜-3匹新1级",
+  "subnameInList": "耀系列-月兔星耀变频圆柱柜",
+  "category":"cabinet",
+  "name": "耀系列-月兔星耀变频圆柱柜-3匹新1级",
+  "model": "KFR-72LW/DN2Y-QA(3)D",
+  "desc": "月兔新款耀系列圆柱柜-星耀，家具星宠，闪耀生活。健康除菌，高温自清洁。智能语音自学习，新能效巨省电！",
+  "efficiency": [
+    "国标新3级"
+  ],
+  "area": [
+    "3匹（32-48㎡）冷暖"
+  ],
+  "colors": [
+    {
+      "value": "#fff",
+      "label": "珍珠白"
+    }
+  ],
+  "attrs": [
+    "AI语音控制",
+    "立体广送风",
+    "洁风自清洁",
+    "除湿更清爽"
+  ],
+  "parameters": {
+    "productModel": "KFR-72LW/DN2Y-QA(3)D",
+    "type": "立式柜机",
+    "coolingType": "冷暖",
+    "horsepower": "3匹",
+    "frequency": "变频",
+    "efficiency": "新3级",
+    "APF": "3.56",
+    "coolingCapacity": "7200（1000-8200）",
+    "coolingPower": "2300（350-3500）",
+    "heatingCapacity": "9200（1000-10350）+2200",
+    "heatingPower": "3200（350-3750）+2200",
+    "circulatingFlow": "1200",
+    "controlWay": "遥控+智能AI语音",
+    "internalSize": "418×418×1800",
+    "externalSize": "900×360×640",
+    "internalQuality": "28/34",
+    "externaQuality": "40/44",
+    "powerEfficiency": "220V~50Hz",
+    "powerPlug": "16A"
+  },
+  "cover": "/images/products/Q-tech/cover-7.png",
+  "coverImgs": [
+    "/images/products/Q-tech/cover-1.png",
+    "/images/products/Q-tech/cover-2.png",
+    "/images/products/Q-tech/cover-3.png",
+    "/images/products/Q-tech/cover-4.png",
+    "/images/products/Q-tech/cover-5.png",
+    "/images/products/Q-tech/cover-6.png",
+    "/images/products/Q-tech/cover-7.png"
+  ],
+  "detailImgs": []
+}

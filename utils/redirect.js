@@ -4,7 +4,7 @@ import languageDetector from './languageDetector'
 
 export const useRedirect = (to) => {
   const router = useRouter()
-  to = to || router.asPath
+  to = to ?? router.asPath
 
   // language detection
   useEffect(() => {

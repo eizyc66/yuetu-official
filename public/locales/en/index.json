@@ -1,13 +1,4 @@
 {
-  "name": "Name",
-  "phone": "Phone",
-  "company": "Company",
-  "consult-content": "Consult content",
-  "placeholder": {
-    "name": "FirstName LastName",
-    "phone": "Phone Number",
-    "company": "Company Name",
-    "consult-content": "Please Enter"
-  },
-  "send": "Send"
+  "title": "1986 - The brand “Yuetu” was established in Wenzhou.",
+  "desc": "1986 - Yuetu factory was established in Wenzhou plant, with automated production lines of both household and commercial air conditioner begins."
 }

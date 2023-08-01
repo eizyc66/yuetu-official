@@ -1,0 +1,69 @@
+{
+  "nameInList": "月兔QA变频挂机-1.5匹新1级",
+  "subnameInList": "Q系列-月兔QA变频挂机",
+  "category": "hanging",
+  "name": "Q系列-月兔QA变频挂机-1.5匹新1级",
+  "model": "KFR-35GW/DN2Y-QA(Z1)A",
+  "desc": "月兔新款Q系列挂机，圆润机身圆弧设计，高贵典雅，精致百搭。智能语音自学习，新能效巨省电！",
+  "efficiency": [
+    "国标新1级"
+  ],
+  "area": [
+    "1.5匹（15-23㎡）冷暖"
+  ],
+  "colors": [
+    {
+      "value": "#fff",
+      "label": "珍珠白"
+    }
+  ],
+  "attrs": [
+    "AI语音控制",
+    "18分贝静音",
+    "洁风自清洁",
+    "除湿更清爽"
+  ],
+  "parameters": {
+    "productModel": "KFR-35GW/DN2Y-QA(Z1)A",
+    "type": "分体挂壁机（挂机）",
+    "coolingType": "冷暖",
+    "horsepower": "1.5匹",
+    "frequency": "变频",
+    "efficiency": "新1级",
+    "APF": "5.26",
+    "coolingCapacity": "3500（300-5000）",
+    "coolingPower": "800（80-1900）",
+    "heatingCapacity": "4800（300-6500）+1050",
+    "heatingPower": "1290（80-2095）+1050",
+    "circulatingFlow": "650",
+    "controlWay": "遥控+智能AI语音",
+    "internalSize": "800×299×202",
+    "externalSize": "777×317×540",
+    "internalQuality": "10/12.5",
+    "externaQuality": "23/26",
+    "powerEfficiency": "220V~50Hz",
+    "powerPlug": "16A"
+  },
+  "cover": "/images/products/QA/cover-1.png",
+  "coverImgs": [
+    "/images/products/QA/cover-1.png",
+    "/images/products/QA/cover-2.png",
+    "/images/products/QA/cover-3.png",
+    "/images/products/QA/cover-4.png",
+    "/images/products/QA/cover-5.png",
+    "/images/products/QA/cover-6.png"
+  ],
+  "detailImgs": [
+    "/images/products/QA/detail-1.jpg",
+    "/images/products/QA/detail-2.jpg",
+    "/images/products/QA/detail-3.jpg",
+    "/images/products/QA/detail-4.jpg",
+    "/images/products/QA/detail-5.jpg",
+    "/images/products/QA/detail-6.jpg",
+    "/images/products/QA/detail-7.jpg",
+    "/images/products/QA/detail-8.jpg",
+    "/images/products/QA/detail-9.jpg",
+    "/images/products/QA/detail-10.jpg",
+    "/images/products/QA/detail-11.jpg"
+  ]
+}

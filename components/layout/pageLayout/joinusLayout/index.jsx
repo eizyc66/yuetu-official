@@ -1,4 +1,5 @@
 import { BasicLayout } from '@/components/layout/index'
+import { useTranslation } from 'next-i18next'
 
 const config = {
   title: '加入月兔',

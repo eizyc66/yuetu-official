@@ -1,0 +1,56 @@
+{
+  "nameInList": "月兔YU定频挂机-大1匹单冷",
+  "subnameInList": "Y系列-月兔YU定频挂机",
+  "category":"hanging",
+  "name": "Y系列-月兔YU定频挂机-大1匹单冷",
+  "model": "KF-26GW/YU(5)A",
+  "desc": "月兔Y系列挂机，理想家，Y舒适， 瓷白面板，弧面设计，简约经典白； 全直流变频技术，运行更高效更稳定",
+  "efficiency": [
+    "国标新5级"
+  ],
+  "area": ["大1匹（8-12㎡）单冷"],
+  "colors": [
+    {
+      "value": "#fff",
+      "label": "珍珠白"
+    }
+  ],
+  "attrs": [
+    "独立除湿",
+    "18分贝静音",
+    "32贝静音",
+    "急速制冷",
+    "一键自清洁"
+  ],
+  "parameters": {
+    "productModel": "KFR-35GW/DN2Y-QA(Z1)A",
+    "type": "分体挂壁机（挂机）",
+    "coolingType" :"单冷",
+    "horsepower": "大1匹",
+    "frequency": "定频",
+    "efficiency": "新5级",
+    "APF": "3.75",
+    "coolingCapacity": "2600",
+    "coolingPower": "702",
+    "heatingCapacity": "/",
+    "heatingPower": "/",
+    "circulatingFlow": "550",
+    "controlWay": "遥控",
+    "internalSize": "770×250×205",
+    "externalSize": "700×255×540",
+    "internalQuality": "8/9",
+    "externaQuality": "25/28",
+    "powerEfficiency": "220V~50Hz",
+    "powerPlug": "16A"
+  },
+  "cover": "/images/products/YU/cover-1.png",
+  "coverImgs": [
+    "/images/products/YU/cover-1.png",
+    "/images/products/YU/cover-2.png",
+    "/images/products/YU/cover-3.png",
+    "/images/products/YU/cover-4.png",
+    "/images/products/YU/cover-5.png",
+    "/images/products/YU/cover-6.png"
+  ],
+  "detailImgs": []
+}

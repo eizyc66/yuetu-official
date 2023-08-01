@@ -1,0 +1,60 @@
+{
+  "nameInList": "月兔UA定频挂机-3匹冷暖",
+  "subnameInList": "U系列-月兔UA定频挂机",
+  "category": "hanging",
+  "name": "U系列-月兔UA定频挂机-3匹冷暖",
+  "model": "KFR-72GW/DY-UA(5)C",
+  "desc": "月兔U系列挂机，高品质，U生活，隐藏LED显示，柔光不刺眼。18分贝静音，舒适好睡眠",
+  "efficiency": [
+    "国标新5级"
+  ],
+  "area": [
+    "3匹（30-40㎡）冷暖"
+  ],
+  "colors": [
+    {
+      "value": "#fff",
+      "label": "珍珠白"
+    }
+  ],
+  "attrs": [
+    "强劲速冷",
+    "18分贝静音",
+    "独立除湿",
+    "高温自清洁"
+  ],
+  "parameters": {
+    "productModel": "KFR-72GW/DY-UA(5)C",
+    "type": "分体挂壁机（挂机）",
+    "coolingType": "冷暖",
+    "horsepower": "3匹",
+    "frequency": "定频",
+    "efficiency": "新5级",
+    "APF": "3.12",
+    "coolingCapacity": "7200",
+    "coolingPower": "2140",
+    "heatingCapacity": "7600",
+    "heatingPower": "2250",
+    "circulatingFlow": "1200",
+    "controlWay": "遥控",
+    "internalSize": "1080×327×227",
+    "externalSize": "900×360×640",
+    "internalQuality": "16/17",
+    "externaQuality": "47/51",
+    "powerEfficiency": "220V~50Hz",
+    "powerPlug": "16A"
+  },
+  "cover": "/images/products/UA/cover-1.png",
+  "cover": "/images/products/UA(3HP)/cover-1.png",
+  "coverImgs": [
+    "/images/products/UA(3HP)/cover-1.png",
+    "/images/products/UA(3HP)/cover-2.png",
+    "/images/products/UA(3HP)/cover-3.png",
+    "/images/products/UA(3HP)/cover-4.png",
+    "/images/products/UA(3HP)/cover-5.png",
+    "/images/products/UA(3HP)/cover-6.png"
+  ],
+  "detailImgs": [
+    
+  ]
+}

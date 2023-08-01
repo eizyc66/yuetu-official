@@ -5,7 +5,7 @@ import { useMedia } from '@/utils/hooks'
 
 import { getStaticPaths, makeStaticProps } from '@/utils/getStatic'
 
-const getStaticProps = makeStaticProps(['common'])
+const getStaticProps = makeStaticProps([])
 export { getStaticPaths, getStaticProps }
 
 const honorList = [
@@ -35,7 +35,7 @@ const honorList = [
   }
 ]
 
-export default function HonorPage({common}) {
+export default function HonorPage() {
   // const { t } = useTranslation('common')
   const isPC = useMedia()
 

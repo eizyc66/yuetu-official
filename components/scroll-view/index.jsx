@@ -43,21 +43,21 @@ const Index = ({ rightArrow, leftArrow, children, className= ''}) => {
       <div>
         {
           x==0?null:(
-            <div className="absolute left-0 top-0 bottom-0" onClick={()=>slickFn('prev')}>
+            <div className="absolute left-0 top-0 bottom-0 cursor-pointer" onClick={()=>slickFn('prev')}>
               {leftRendner}
             </div>
           )
         }
         {
           hasNext?(
-            <div className="absolute right-0 top-0 bottom-0" onClick={()=>slickFn('next')}>
+            <div className="absolute right-0 top-0 bottom-0 cursor-pointer" onClick={()=>slickFn('next')}>
               {rightRender}
             </div>
           ):null
         }
       </div>
       <div ref={scrollRef} className="overflow-x-scroll">
-        <div ref={contentRef} className="flex flex-row w-max">
+        <div ref={contentRef} className="flex flex-row w-max min-w-full">
           {children}
         </div>
       </div>

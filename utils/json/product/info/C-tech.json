@@ -1,0 +1,19 @@
+{
+  "nameInList": "C-tech",
+  "subnameInList": "Celling Split AC",
+  "name": "C-tech",
+  "model": "-",
+  "desc": "Advanced Self-cleaning, enjoy breath the fresh air!",
+  "efficiency": [],
+  "area": [],
+  "colors": [],
+  "attrs": [],
+  "parameters": {
+  },
+  "cover": "/images/products/C-tech/cover-1.jpg",
+  "coverImgs": [
+    "/images/products/C-tech/cover-1.jpg",
+    "/images/products/C-tech/cover-2.png"
+  ],
+  "detailImgs": []
+}

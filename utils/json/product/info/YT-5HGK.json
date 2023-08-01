@@ -1,0 +1,43 @@
+{
+  "nameInList": "月兔空气能热泵烘干机",
+  "subnameInList":"月兔空气能热泵烘干机",
+  "category":"dryer",
+  "name": "月兔空气能热泵烘干机",
+  "model": "YT-5HGK",
+  "desc": "月兔空气能热泵烘干机专为烘烤农作物设计，环保新能源热泵式加热，先进智能控制系统，无明火，无任何污染物排放，安全可靠。产品用途：烟草，水果、蔬菜、稻谷等产品的烘干。",
+  "efficiency": [],
+  "area": [],
+  "colors": [
+    {
+      "value": "#424953",
+      "label": "钛金灰"
+    }
+  ],
+  "attrs": [
+    "环保无污染",
+    "安全无明火",
+    "智能APP控制",
+    "一体式设计"
+  ],
+  "parameters": {
+    "productModel": "YT-5HGK",
+    "type": "空气能热泵烘干机",
+    "highestTemp": "70℃",
+    "maxHeatPower": "45",
+    "inputPower": "10.5",
+    "maxCurrent": "21A",
+    "maxPressure": "3.0",
+    "bodySize": "1290×560×1650",
+    "netWeight": "200",
+    "waterproofLevel": "IPX4",
+    "powerEfficiency": "3∅380V~50Hz"
+  },
+  "cover": "/images/products/dryer/cover-1.png",
+  "coverImgs": [
+    "/images/products/dryer/cover-1.png",
+    "/images/products/dryer/cover-2.png",
+    "/images/products/dryer/cover-3.png",
+    "/images/products/dryer/cover-4.jpg"
+  ],
+  "detailImgs": []
+}

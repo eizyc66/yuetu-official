@@ -1,0 +1,46 @@
+{
+  "nameInList": "月兔天花机-月兔商用定频天花机",
+  "subnameInList":"月兔天花机-月兔商用定频天花机",
+  "category":"ceiling",
+  "name": "月兔天花机-月兔商用定频天花机",
+  "model": "KFR-120QW/DSY-E(3)",
+  "desc": "月兔商用天花机，纤薄机身，嵌入式安装，隐藏设计，自然美观，四面立体出风设计，均匀无死角",
+  "efficiency": [
+    "国标新3级"
+  ],
+  "area": [
+    "3匹（32-48㎡）冷暖",
+    "5匹（41-72㎡）冷暖"
+  ],
+  "colors": [
+    {
+      "value": "#fff",
+      "label": "珍珠白"
+    }
+  ],
+  "attrs": [
+    "更薄更省空间",
+    "LED全新数显",
+    "智能三档操作",
+    "360°立体送风"
+  ],
+  "parameters": {
+    "productModel": "KFR-120QW/DSY-E(3)",
+    "type": "天花机",
+    "coolingType": "冷暖",
+    "horsepower": "3匹，5匹",
+    "frequency": "定频",
+    "efficiency": "新3级",
+    "powerEfficiency": "220V~50Hz",
+    "powerPlug": "16A"
+  },
+  "cover": "/images/products/C-tech/cover-1.jpg",
+  "coverImgs": [
+    "/images/products/C-tech/cover-1.jpg",
+    "/images/products/C-tech/cover-2.png"
+  ],
+  "detailImgs": [
+    "/images/products/C-tech/detail-1.jpg",
+    "/images/products/C-tech/detail-2.jpg"
+  ]
+}

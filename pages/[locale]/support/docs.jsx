@@ -7,10 +7,10 @@ import { Responsive } from '@/components/index'
 import { FIXED_FREQUENCY_ERR_CODE, FREQUENCY_ERR_CODE, HOT_AIR_BLOWER_ERR_CODE } from '@/utils/const'
 import { getStaticPaths, makeStaticProps } from '@/utils/getStatic'
 
-const getStaticProps = makeStaticProps(['common'])
+const getStaticProps = makeStaticProps([])
 export { getStaticPaths, getStaticProps }
 
-export default function DocsPage({common}) {
+export default function DocsPage() {
   const { t } = useTranslation('common')
   const isPC = useMedia()
 

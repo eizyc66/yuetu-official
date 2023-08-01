@@ -1,0 +1,44 @@
+{
+  "nameInList": "月兔风管机-月兔商用定频风管机",
+  "subnameInList":"月兔风管机-月兔商用定频风管机",
+  "category":"duct",
+  "name": "月兔风管机-月兔商用定频风管机",
+  "model": "KFR-36NW/DY-A(3)",
+  "desc": "月兔中央空调风管机系列，至薄机身，享你所想，隐藏设计，安装简易",
+  "efficiency": [
+    "国标新3级"
+  ],
+  "area": [
+    "1.5匹（16-24㎡）冷暖",
+    "3匹（32-48㎡）冷暖"
+  ],
+  "colors": [
+    {
+      "value": "#fff",
+      "label": "珍珠白"
+    }
+  ],
+  "attrs": [
+    "广角远送风",
+    "23分贝静音",
+    "活性炭清洁",
+    "优雅不占地"
+  ],
+  "parameters": {
+    "productModel": "KFR-36NW/DY-A(3)",
+    "type": "风管机",
+    "coolingType": "冷暖",
+    "horsepower": "1.5匹，3匹",
+    "frequency": "定频",
+    "efficiency": "新3级",
+    "powerEfficiency": "220V~50Hz",
+    "powerPlug": "16A"
+  },
+  "cover": "/images/products/duct/cover.png",
+  "coverImgs": [
+    "/images/products/duct/cover.png"
+  ],
+  "detailImgs": [
+    "/images/products/duct/detail.jpg"
+  ]
+}

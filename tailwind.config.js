@@ -17,6 +17,13 @@ module.exports = {
       '4xl': ['2.25rem', '1'],
       '5xl': ['3rem', '1'],
     },
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px'
+    },
     extend: {
       colors: {
         'primary': '#FC0407'

@@ -5,10 +5,10 @@ import { useMedia } from '@/utils/hooks'
 import NoSSR from 'react-no-ssr';
 import { getStaticPaths, makeStaticProps } from '@/utils/getStatic'
 
-const getStaticProps = makeStaticProps(['common'])
+const getStaticProps = makeStaticProps([])
 export { getStaticPaths, getStaticProps }
 
-export default function QueationPage({common}) {
+export default function QueationPage() {
   const { t } = useTranslation('common')
   const isPC = useMedia()
 

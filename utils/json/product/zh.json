@@ -1,0 +1,106 @@
+[
+  {
+    "type": "household-AC",
+    "name": "household_AC",
+    "logo": "/svg/household-AC.svg",
+    "ids": [
+      "KFR-35GW/DN2Y-QA(Z1)A",
+      "KFR-35GW/DN2-VA(Z1)",
+      "KFR-25GW/DN2-VA(3)D",
+      "KFR-35GW/DN2-UA(Z3)G",
+      "KFR-72L/DN2Y-QA(1)D",
+      "KFR-51W/DN2Y-QA(3)D",
+      "KFR-72LW/DN2Y-QA(3)D",
+      "KF-26GW/YU(5)A",
+      "KF-35GW/YU(5)C",
+      "KFR-26GW/D-YU(5)B",
+      "KFR-35GW/D-YU(5)C",
+      "KFR-35GW/D-YU(5)D",
+      "KF-35GW/UA(5)",
+      "KFR-35GW/D-UA(5)",
+      "KFR-35GW/D-UA(5)D",
+      "KFR-72GW/DY-UA(5)C",
+      "KF-50GW/VA(5)",
+      "KFR-50GW/D-VA(5)A",
+      "KF-51LW/BC(5)A",
+      "KF-72LW/BC(5)C",
+      "KFR-51LW/D-BC(5)A",
+      "KFR-72LW/D-BC(5)C",
+      "KFR-35GW/DN2-YY(Z3)",
+      "KFR-26GW/D-FG(5)B"
+    ],
+    "recommend": [
+      "KFR-35GW/DN2Y-QA(Z1)A",
+      "KFR-35GW/DN2-VA(Z1)",
+      "KFR-72L/DN2Y-QA(1)D"
+    ],
+    "category": [
+      {
+        "value": "hanging",
+        "label": "家用挂机空调"
+      },
+      {
+        "value": "cabinet",
+        "label": "家用柜机空调"
+      }
+    ]
+  },
+  {
+    "type": "commercial-AC",
+    "name": "commercial_AC",
+    "logo": "/svg/commercial-AC.svg",
+    "ids": [
+      "KFR-120LW/SDN1-HA(5)",
+      "KFR-120QW/DSY-E(3)",
+      "KFR-36NW/DY-A(3)"
+    ],
+    "recommend": [
+      "KFR-120LW/SDN1-HA(5)",
+      "KFR-120QW/DSY-E(3)",
+      "KFR-36NW/DY-A(3)"
+    ],
+    "category": [
+      {
+        "value": "cabinet",
+        "label": "柜机"
+      },
+      {
+        "value": "ceiling",
+        "label": "天花机"
+      },
+      {
+        "value": "duct",
+        "label": "风管机"
+      }
+    ]
+  },
+  {
+    "type": "special-AC",
+    "name": "special_AC",
+    "logo": "/svg/special-AC.svg",
+    "ids": [
+      "RF-40NW/BPN1-TB",
+      "J6P",
+      "YT-5HGK"
+    ],
+    "recommend": [
+      "RF-40NW/BPN1-TB",
+      "J6P",
+      "YT-5HGK"
+    ],
+    "category": [
+      {
+        "value": "heater",
+        "label": "热泵热风机系列"
+      },
+      {
+        "value": "dryer",
+        "label": "热泵烘干机系列"
+      },
+      {
+        "value": "parking",
+        "label": "驻车空调系列机空调"
+      }
+    ]
+  }
+]

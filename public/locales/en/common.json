@@ -1,3 +1,33 @@
 {
-  "h1": "Ein einfaches Beispiel"
+  "home": "Home",
+  "address": "No.6, Phase 3, Chengnan Township Industrial Park, Ninghua County, Sanming City, Fujian Province",
+  "desc": "The brand \"Yuetu\" was founded in 1986 and is one of the earliest air conditioning brands in China with a history of air-conditioner manufacturing for over 30 years. It is a large-scale comprehensive white household appliances group specializing in the R&D, manufacturing, sales and service of air-conditioning products.",
+  "label": {
+    "address": "Address",
+    "contact_address": "Contact Address"
+  },
+  "more": {
+    "see": "More +",
+    "learn": "More +",
+    "detail": "More +"
+  },
+  "route": {
+    "about_us": "About Us",
+    "product": "Products",
+    "service": "Service"
+  },
+  "phone": {
+    "copy": "Copy",
+    "dial": "Dial"
+  },
+  "hotline": {
+    "after_sales": "After-sales Hotline",
+    "cooperation": "Official Cooperation Hotline"
+  },
+  "AC_type":{
+    "household_AC": "Residential Air-conditioning",
+    "commercial_AC": "Commercial Air-conditioning",
+    "special_AC": "Special Air-conditioning"
+  },
+  "productType": "Product Type"
 }

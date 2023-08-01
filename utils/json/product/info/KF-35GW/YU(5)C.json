@@ -1,0 +1,55 @@
+{
+  "nameInList": "月兔YU定频挂机-1.5匹单冷",
+  "subnameInList": "Y系列-月兔YU定频挂机",
+  "category":"hanging",
+  "name": "Y系列-月兔YU定频挂机-1.5匹单冷",
+  "model": "KF-35GW/YU(5)C",
+  "desc": "月兔Y系列挂机，理想家，Y舒适， 瓷白面板，弧面设计，简约经典白； 全直流变频技术，运行更高效更稳定",
+  "efficiency": [
+    "国标新5级"
+  ],
+  "area": ["1.5匹（13-20㎡）单冷"],
+  "colors": [
+    {
+      "value": "#fff",
+      "label": "珍珠白"
+    }
+  ],
+  "attrs": [
+    "独立除湿",
+    "18分贝静音",
+    "急速制冷",
+    "一键自清洁"
+  ],
+  "parameters": {
+    "productModel": "KF-35GW/YU(5)C",
+    "type": "分体挂壁机（挂机）",
+    "coolingType" :"单冷",
+    "horsepower": "1.5匹",
+    "frequency": "定频",
+    "efficiency": "新5级",
+    "APF": "3.72",
+    "coolingCapacity": "3500",
+    "coolingPower": "960",
+    "heatingCapacity": "/",
+    "heatingPower": "/",
+    "circulatingFlow": "650",
+    "controlWay": "遥控",
+    "internalSize": "813×290×195",
+    "externalSize": "700×255×540",
+    "internalQuality": "8/10",
+    "externaQuality": "26/29",
+    "powerEfficiency": "220V~50Hz",
+    "powerPlug": "16A"
+  },
+  "cover": "/images/products/YU/cover-1.png",
+  "coverImgs": [
+    "/images/products/YU/cover-1.png",
+    "/images/products/YU/cover-2.png",
+    "/images/products/YU/cover-3.png",
+    "/images/products/YU/cover-4.png",
+    "/images/products/YU/cover-5.png",
+    "/images/products/YU/cover-6.png"
+  ],
+  "detailImgs": []
+}

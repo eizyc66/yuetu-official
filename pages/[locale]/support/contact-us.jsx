@@ -7,10 +7,10 @@ import { useMedia } from '@/utils/hooks'
 import NoSSR from 'react-no-ssr';
 import { getStaticPaths, makeStaticProps } from '@/utils/getStatic'
 
-const getStaticProps = makeStaticProps(['common'])
+const getStaticProps = makeStaticProps([])
 export { getStaticPaths, getStaticProps }
 
-export default function ContactUSPage({common}) {
+export default function ContactUSPage() {
   const { t } = useTranslation('common')
 
   return (

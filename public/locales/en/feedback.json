@@ -1,0 +1,25 @@
+{
+  "feedback": "Online Feedback",
+  "desc": "Provide your requirement,we will reply to you immediately",
+  "name": "Name",
+  "phone": "Tel",
+  "company": "Company Name",
+  "consult-content": "Content Description",
+  "consult-content-abbr": "Content Desc",
+  "placeholder": {
+    "name": "Please enter your name",
+    "phone": "Please enter your phone number",
+    "company": "Please enter your company name",
+    "consult-content": "Please input your requirement"
+  },
+  "validate": {
+    "name-empty": "Name is required",
+    "phone-empty": "Tel is required",
+    "phone-invalid": "Tel is invalid",
+    "company-empty": "Company Name is required",
+    "consult-content-empty": "Content Description is required"
+  },
+  "send": "Send",
+  "send_success": "Success!",
+  "send_failure": "Failure!"
+}

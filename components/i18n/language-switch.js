@@ -15,21 +15,25 @@ const LanguageSwitch = ({ className, showFull = false , onClick}) => {
   const currentLocale = router.query.locale || ''
   const locale = currentLocale=='zh'?'en':'zh'
 
-  const finalHref = useMemo(()=>{
-    let path = router.pathname
-    Object.keys(router.query).forEach((k) => {
-      if (k === 'locale') {
-        path = path.replace(`[${k}]`, locale)
-        return
-      }
-      path = path.replace(`[${k}]`, router.query[k])
-    })
-    return path
-  }, [router])
+  // const finalHref = useMemo(()=>{
+  //   let path = router.pathname
+  //   Object.keys(router.query).forEach((k) => {
+  //     if (k === 'locale') {
+  //       path = path.replace(`[${k}]`, locale)
+  //       return
+  //     }
+  //     path = path.replace(`[${k}]`, router.query[k])
+  //   })
+  //   return path
+  // }, [router])
+
+  const href = useMemo(()=>{
+    return `/${locale}`
+  }, [locale])
 
   return (
     <Link
-      href={finalHref}
+      href={href}
       onClick={() => {
         languageDetector.cache(locale)
         onClick?.()
@@ -39,7 +43,7 @@ const LanguageSwitch = ({ className, showFull = false , onClick}) => {
       {
         showFull?null:
         <NoSSR>
-          <ReactSVG className='w-[3.5] h-[3.5] svg' src='/svg/global.svg'></ReactSVG>
+          <ReactSVG className='w-3.5 h-3.5 svg' src='/svg/global.svg'></ReactSVG>
         </NoSSR>
       }
       <button className={className}>{showFull?(fullNameMapping[locale]):locale?.toUpperCase()}</button>

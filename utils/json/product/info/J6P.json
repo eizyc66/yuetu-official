@@ -1,0 +1,44 @@
+{
+  "nameInList": "月兔旗下-卡帅多形式驻车空调",
+  "subnameInList": "月兔旗下-卡帅多形式驻车空调",
+  "category":"parking",
+  "name": "月兔旗下-卡帅多形式驻车空调",
+  "model": "-",
+  "desc": "月兔旗下卡帅科技驻车空调新品推出，卡帅科技，创造舒适车生活。一机冷暖，四季随行",
+  "efficiency": [],
+  "area": [],
+  "colors": [
+    {
+      "value": "#de2910",
+      "label": "中国红"
+    }
+  ],
+  "attrs": [
+    "顶式一体机",
+    "定制专用款",
+    "卧式工程款",
+    "隐形专用款"
+  ],
+  "parameters": {
+  },
+  "cover": "/images/products/J6P/cover-2.jpg",
+  "coverImgs": [
+    "/images/products/J6P/cover-1.jpg",
+    "/images/products/J6P/cover-2.jpg",
+    "/images/products/J6P/cover-3.jpg",
+    "/images/products/J6P/cover-4.jpg",
+    "/images/products/J6P/cover-5.jpg",
+    "/images/products/J6P/cover-6.jpg",
+    "/images/products/J6P/cover-7.jpg",
+    "/images/products/J6P/cover-8.jpg",
+    "/images/products/J6P/cover-9.jpg"
+  ],
+  "detailImgs": [
+    "/images/products/J6P/detail-1.jpg",
+    "/images/products/J6P/detail-2.jpg",
+    "/images/products/J6P/detail-3.jpg",
+    "/images/products/J6P/detail-4.jpg",
+    "/images/products/J6P/detail-5.jpg",
+    "/images/products/J6P/detail-6.jpg"
+  ]
+}

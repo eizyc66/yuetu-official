@@ -13,8 +13,9 @@ export const getStaticPaths = () => ({
   paths: getI18nPaths()
 })
 
-export async function getI18nProps(ctx, ns = ['common'], fun) {
+export async function getI18nProps(ctx, ns = [], fun) {
   const locale = ctx?.params?.locale
+  ns = [...ns, 'common']
   let props = {
     ...(await serverSideTranslations(locale, ns)),
     ...(await fun(ctx))
@@ -32,17 +33,24 @@ export function makeStaticProps(ns = {} , fun = async()=> ({})) {
 }
 
 export const makeStaticPaths = (array) => {
-  let paths = getI18nPaths()
-  paths = array.reduce((res, ele)=>{
-    const arr = paths.map(item=>({
-      params: {
-        ...item.params,
-        ...ele
-      }
+  let paths = []
+  if(array?.[0]?.locale) {
+    paths = array.map(item=>({
+      params: item
     }))
-    res.push(...arr)
-    return res
-  },[])
+  } else {
+    paths = getI18nPaths()
+    paths = array.reduce((res, ele)=>{
+      const arr = paths.map(item=>({
+        params: {
+          ...item.params,
+          ...ele
+        }
+      }))
+      res.push(...arr)
+      return res
+    },[])
+  }
   return () => ({
     fallback: false,
     paths

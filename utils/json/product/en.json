@@ -1,0 +1,18 @@
+[
+  {
+    "type": "household-AC",
+    "name": "household_AC",
+    "logo": "/svg/household-AC.svg",
+    "ids": ["QA-Series", "VA-Series","YU-Series","UA-Series","YY-Series","FG-Series","Q-tech","BC-Series"],
+    "recommend": ["QA-Series","VA-Series","YU-Series"],
+    "category": []
+  },
+  {
+    "type": "commercial-AC",
+    "name": "commercial_AC",
+    "logo": "/svg/commercial-AC.svg",
+    "ids": ["HK-Series","C-tech","TB-Series"],
+    "recommend": ["HK-Series","C-tech","TB-Series"],
+    "category": []
+  }
+]

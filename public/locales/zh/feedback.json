@@ -1,0 +1,25 @@
+{
+  "feedback": "商务合作",
+  "desc": "留下您的联系方式我们会在第一时间联系您",
+  "name": "姓名",
+  "phone": "电话",
+  "company": "公司名称",
+  "consult-content": "咨询内容",
+  "consult-content-abbr": "咨询内容",
+  "placeholder": {
+    "name": "请输入姓名",
+    "phone": "联系方式",
+    "company": "请输入公司全称",
+    "consult-content": "请输入"
+  },
+  "validate": {
+    "name-empty": "请输入姓名",
+    "phone-empty": "请输入联系方式",
+    "phone-invalid": "请输入合法联系方式",
+    "company-empty": "请输入公司全称",
+    "consult-content-empty": "请输入咨询内容"
+  },
+  "send": "发送",
+  "send_success": "发送成功",
+  "send_failure": "发送失败"
+}

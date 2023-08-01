@@ -1,0 +1,31 @@
+{
+  "nameInList": "FG-Series",
+  "subnameInList": "Wall-mounted AC",
+  "name": "FG-Series",
+  "model": "-",
+  "desc": "Advanced Self-cleaning, enjoy breath the fresh air!",
+  "efficiency": [],
+  "area": [],
+  "colors": [
+    {
+      "value": "#c6b2aa",
+      "label": "Golden"
+    },
+    {
+      "value": "#9a9b9b",
+      "label": "Sliver"
+    },
+    {
+      "value": "#e8e6e6",
+      "label": "White"
+    }
+  ],
+  "attrs": [],
+  "parameters": {
+  },
+  "cover": "/images/products/FG/cover.png",
+  "coverImgs": [
+    "/images/products/FG/cover.png"
+  ],
+  "detailImgs": []
+}

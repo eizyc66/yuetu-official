@@ -1,0 +1,78 @@
+{
+  "nameInList": "月兔UA变频挂机-1.5匹新3级",
+  "subnameInList":  "U系列-月兔UA变频挂机",
+  "category":"hanging",
+  "name": "U系列-月兔UA变频挂机-1.5匹新3级",
+  "model": "KFR-35GW/DN2-UA(Z3)G",
+  "desc": "月兔U系列挂机，高品质，U生活，隐藏LED显示，柔光不刺眼。18分贝静音，舒适好睡眠",
+  "efficiency": [
+    "国标新3级"
+  ],
+  "area": ["1.5匹（15-23㎡）冷暖"],
+  "colors": [
+    {
+      "value": "#fff",
+      "label": "珍珠白"
+    },
+    {
+      "value": "#D3BC8D",
+      "label": "香槟金"
+    },
+    {
+      "value": "#E1A6AD",
+      "label": "玫瑰金"
+    },
+    {
+      "value": "#8D9092",
+      "label": "太空银"
+    }
+  ],
+  "attrs": [
+    "强劲速冷暖",
+    "18分贝静音",
+    "独立除湿",
+    "高温自清洁"
+  ],
+  "parameters": {
+    "productModel": "KFR-35GW/DN2-UA(Z3)G",
+    "type": "分体挂壁机（挂机）",
+    "coolingType" :"冷暖",
+    "horsepower": "1.5匹",
+    "frequency": "变频",
+    "efficiency": "新3级",
+    "APF": "4.20",
+    "coolingCapacity": "3500（200-4400）",
+    "coolingPower": "1080（90-1820）",
+    "heatingCapacity": "4400（200-5500）+1000",
+    "heatingPower": "1210（90-1850）+1000",
+    "circulatingFlow": "650",
+    "controlWay": "遥控",
+    "internalSize": "825×290×195",
+    "externalSize": "777×317×540",
+    "internalQuality": "9/11.5",
+    "externaQuality": "23/26",
+    "powerEfficiency": "220V~50Hz",
+    "powerPlug": "16A"
+  },
+  "cover": "/images/products/UA/cover-1.png",
+  "coverImgs": [
+    "/images/products/UA/cover-1.png",
+    "/images/products/UA/cover-2.png",
+    "/images/products/UA/cover-3.png",
+    "/images/products/UA/cover-4.png",
+    "/images/products/UA/cover-5.png",
+    "/images/products/UA/cover-6.png"
+  ],
+  "detailImgs": [
+    "/images/products/UA/detail-1.jpg",
+    "/images/products/UA/detail-2.jpg",
+    "/images/products/UA/detail-3.jpg",
+    "/images/products/UA/detail-4.jpg",
+    "/images/products/UA/detail-5.jpg",
+    "/images/products/UA/detail-6.jpg",
+    "/images/products/UA/detail-7.jpg",
+    "/images/products/UA/detail-8.jpg",
+    "/images/products/UA/detail-9.jpg",
+    "/images/products/UA/detail-10.jpg"
+  ]
+}

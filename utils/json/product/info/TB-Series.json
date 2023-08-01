@@ -1,0 +1,20 @@
+{
+  "nameInList": "TB-Series",
+  "subnameInList": "Heating AC",
+  "name": "TB-Series",
+  "model": "-",
+  "desc": "Advanced Self-cleaning, enjoy breath the fresh air!",
+  "efficiency": [],
+  "area": [],
+  "colors": [],
+  "attrs": [],
+  "parameters": {
+  },
+  "cover":  "/images/products/TB/cover-2.png",
+  "coverImgs": [
+    "/images/products/TB/cover-1.png",
+    "/images/products/TB/cover-2.png",
+    "/images/products/TB/cover-3.png"
+  ],
+  "detailImgs": []
+}
