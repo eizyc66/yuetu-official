@@ -124,11 +124,12 @@ const Index = ( props ,ref) => {
           <div className='h-px bg-white/20 my-5 w-full sm:my-3'></div>
           <div className='sm:flex sm:justify-between sm:w-full sm:items-center'>
             <div className='text-xs leading-6'>
-            COPYRIGHT©宁化月兔科技有限公司 | 闽ICP备
+            COPYRIGHT©宁化月兔科技有限公司 | <a href='https://beian.miit.gov.cn' target='_blank' >闽ICP备
             <NoSSR>
               {isPC?null:<br/>}
             </NoSSR>
-            2022014438号-1
+            2022014438号-3
+            </a>
             </div>
             <div className='hidden sm:block'>
               <LanguageSwitch className='ml-1 text-white text-xs'/>

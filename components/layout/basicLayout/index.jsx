@@ -1,4 +1,5 @@
 import { useMeasure } from "react-use";
+import Head from 'next/head'
 import {
   useWindowHeight
 } from '@react-hook/window-size'
@@ -94,6 +95,9 @@ const Layout = ({ children, config }) => {
 
   return (
     <>
+    <Head>
+    <title>{title?`${t('company')} - ${title}`:`${t('company')}`}</title>
+    </Head>
       <Navbar ref={ref}/>
       <main style={{paddingTop : `${height}px`, minHeight: `${clientHeight- footerHeight}px`}}>
         <div className="hidden sm:block relative group">
