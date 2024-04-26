@@ -29,7 +29,7 @@ export default function HiringPage() {
     <div className='px-4 pb-10 sm:pl-6 sm:pb-14 '>
       <ul>
         {
-          JOB_LIST.map(item=>renderJob(item))
+          JOB_LIST&&JOB_LIST.map(item=>renderJob(item))
         }
       </ul>
     </div>

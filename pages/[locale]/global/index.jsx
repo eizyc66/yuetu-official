@@ -37,7 +37,7 @@ export default function GlobalPage({globalList}) {
   const router = useRouter()
   const [active, setActive] = useState(WORLD_LIST[0].value)
   const list = useMemo(()=>{
-    return globalList.find(item=>item.id==active)?.countryList
+    return globalList?.find(item=>item.id==active)?.countryList??[]
   }, [globalList, active])
 
   return <>
@@ -48,7 +48,7 @@ export default function GlobalPage({globalList}) {
   <ScrollView>
     <ul className='flex flex-1 flex-row text-center text-xs sm:text-sm sm:mt-8 sm:mb-4'>
       {
-        WORLD_LIST.map(item=>(
+        WORLD_LIST&&WORLD_LIST.map(item=>(
           <li key={item.value} className={`${item.value===active?'bg-black text-white':'text-black/70'} flex-1 border-[#ddd] border py-3 px-3 sm:px-0 font-medium transition-all ease-in-out cursor-pointer duration-200 mx-[-0.5px] whitespace-nowrap`} onClick={()=>setActive(item.value)}>{item.label}</li>
         ))
       }
@@ -56,10 +56,10 @@ export default function GlobalPage({globalList}) {
   </ScrollView>
     <div className='pb-14 px-4 pt-4 sm:px-0 sm:pt-0'>
       {
-        list.length==0?(
+        list&&list.length==0?(
           <p className='text-xl text-black/40 text-center pt-10'>Empty</p>
         ):
-        list.map((item,idx)=>(
+        list&&list.map((item,idx)=>(
           <Panel key={item.country} value={item} status={false}/>
         ))
       }

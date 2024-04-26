@@ -31,7 +31,7 @@ export default function RDCenterPage() {
   const renderImg = (list) => (
     <div className='flex flex-row justify-evenly flex-wrap'>
       {
-        list.map(({img, name})=>(
+        list&&list.map(({img, name})=>(
         <div key={name} className='flex flex-col w-[48%] flex-shrink-0 sm:w-[42%] items-center sm:mb-8'>
           <img className='w-full sm:w-[85%] object-contain' src={img} alt="" />
           {name?<p className='text-black/[.55] mt-3 mb-6 text-xs/[20px] text-center sm:text-xs sm:mt-4 sm:mb-0'>{name}</p>:null}

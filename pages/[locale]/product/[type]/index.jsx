@@ -83,8 +83,8 @@ export default function ProcuctsPage({ common, productList, type }) {
   }, [category])
 
   const list = useMemo(()=>{
-    if(!filter) return productList
-    else return productList.filter(item=>item.category == filter)
+    if(!filter) return productList ?? []
+    else return productList?.filter(item=>item.category == filter) ?? []
   }, [productList, filter])
 
   useEffect(()=>{
@@ -115,7 +115,7 @@ export default function ProcuctsPage({ common, productList, type }) {
       <div className='py-5 bg-black/[.04] bg-transparent'>
         <div className='w-[68vw] sm:w-[420px] flex flex-row justify-between items-end m-auto'>
             { 
-            PRODUCT_TYPE_LIST.map((item, idx)=>{
+            PRODUCT_TYPE_LIST&&PRODUCT_TYPE_LIST.map((item, idx)=>{
               const divider = (
                 <div className='bg-black/[.07] w-[0.5px] h-[44px] sm:w-[1px] sm:h-[88px]'></div>
               )
@@ -143,7 +143,7 @@ export default function ProcuctsPage({ common, productList, type }) {
           {isZH?(
             <>
               <span className='mr-2 ml-3 text-black/[.35] text-xs'>筛选产品</span>
-              <span className='text-xs'>{list.length}件</span>
+              <span className='text-xs'>{list?.length}件</span>
             </>
           ):null}
         </p>
@@ -170,7 +170,7 @@ export default function ProcuctsPage({ common, productList, type }) {
         }
         <div className='w-full grid grid-cols-[repeat(2,44%)] mt-10 text-center justify-around sm:grid-cols-[repeat(3,29%)] sm:justify-evenly'>
           {
-            list.map(item=>(
+            list&&list.map(item=>(
               <Link href={`/product/${type}/${item.id}`} key={item.id} className='mb-8 sm:mb-10 transition-default sm:hover:shadow-[0_0_5px_0_rgb(0,0,0,0.08)]'>
                 <RatioBox width={100} height={100} src={item.coverImg} className={`bg-center bg-no-repeat relative`} imgClassName='transition-default object-contain sm:hover:scale-[1.03]'/>
                 <p className='text-base/[18px] mt-5 mb-3 text-black/90 font-medium'>{item.nameInList}</p>

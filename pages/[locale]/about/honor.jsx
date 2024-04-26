@@ -50,7 +50,7 @@ export default function HonorPage() {
       <div className='px-4 pb-10 sm:pl-6  sm:pb-14 sm:pr-0'>
         <p className='text-base/[28px] text-black/70 sm:text-xs/[20px]'>宁化月兔科技有限公司凭借着对技术和品质的极致追求，在福建省、市、县各级领导的高度重视和亲切关怀下，成为福建省家电龙头企业、福建省重点上市后备企业、福建省重点建设项目、三明市优秀民营企业、三明市百亿龙头企业培育对象，荣获福建省创新型民营企业100强、三明市优势品牌产品、福建省科技小巨人领军企业、三明市企业技术中心等荣誉称号。</p>
         <ul className='mt-8 grid grid-cols-[repeat(2,46%)] sm:grid-cols-[repeat(2,36%)] text-center justify-around'>
-          {honorList.map(item=>renderHonor(item))}
+          {honorList&&honorList.map(item=>renderHonor(item))}
         </ul>
       </div>
   )

@@ -15,7 +15,7 @@ const getStaticProps = makeStaticProps([], async (ctx) =>{
   let news = await import(`@/utils/json/news/article/${id}.json`)
         .then(module => module.default)
   return {
-    firstNews: news.replace(reg, '').replace(maker, '')
+    firstNews: news?.replace(reg, '')?.replace(maker, '')
   }
 })
 export { getStaticPaths, getStaticProps }
@@ -52,7 +52,7 @@ export default function NewsPage({firstNews}) {
     <div className='px-4 pb-10 sm:pl-6 sm:pb-14 '>
       <ul>
         {
-          showedList.map((item,idx)=>renderNews(item, idx))
+          showedList&&showedList.map((item,idx)=>renderNews(item, idx))
         }
       </ul>
       {hasMore?

@@ -54,11 +54,11 @@ export default function ProcuctPage({ info, type }) {
   }, [i18n.language])
 
   const coverImgs = useMemo(()=>{
-    return info.coverImgs??[]
+    return info?.coverImgs??[]
   }, [info])
 
   const detailImgs = useMemo(()=>{
-    return info.detailImgs??[]
+    return info?.detailImgs??[]
   }, [info])
 
   const showImg = useMemo(()=>{

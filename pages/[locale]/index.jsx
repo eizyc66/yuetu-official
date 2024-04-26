@@ -70,7 +70,7 @@ const getStaticProps = makeStaticProps(['feedback','index'], async (ctx) =>{
 export { getStaticPaths, getStaticProps }
 
 
-export default function IndexPage({ newsList, productList}) {
+export default function IndexPage({ newsList =[], productList = []}) {
   const router = useRouter()
   const { t, i18n } = useTranslation(['common', 'feedback', 'index'])
   const isPC = useMedia()
@@ -198,7 +198,7 @@ export default function IndexPage({ newsList, productList}) {
         <div>
           <div className='w-[68vw] sm:w-[420px] flex flex-row justify-between items-end m-auto sm:my-14'>
               { 
-              PRODUCT_TYPE_LIST.map((item, idx)=>{
+              PRODUCT_TYPE_LIST&&PRODUCT_TYPE_LIST.map((item, idx)=>{
                 const divider = (
                   <div className='bg-black/[.07] w-[0.5px] h-[44px] sm:w-[1px] sm:h-[88px]'></div>
                 )
@@ -220,7 +220,7 @@ export default function IndexPage({ newsList, productList}) {
           <div className='w-full grid grid-cols-[repeat(3,28%)] mt-10 text-center justify-around sm:grid-cols-[repeat(3,24%)] sm:mt-20 sm:justify-evenly sm:h-min-[25%]'>
             <Responsive>
               {
-                showList.map(item=>(
+                showList&&showList.map(item=>(
                   <Link href={`/product/${type}/${item.id}`} key={item.id} className='mb-8 sm:mb-10 group transition-default sm:hover:shadow-[0_0_5px_0_rgb(0,0,0,0.08)]'>
                     <RatioBox width={100} height={100} src={item.coverImg} imgClassName='transition-default object-contain sm:group-hover:scale-[1.03]' />
                     <p className='text-sm/4 sm:text-base/5 mt-5 mb-3 text-black/90 font-medium'>{item.nameInList}</p>
@@ -256,7 +256,7 @@ export default function IndexPage({ newsList, productList}) {
                 <p className='text-black/[.55] text-xs text-center mt-3 mb-8 sm:mb-16'>最新企业动态</p>
                 <ul className='sm:grid sm:grid-cols-[repeat(2,46%)] sm:justify-around'>
                   {
-                    newsList.map(item=>(
+                    newsList&&newsList.map(item=>(
                       renderNews(item)
                     ))
                   }
